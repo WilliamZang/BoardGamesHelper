@@ -4,6 +4,7 @@ platform :ios, '7.0'
 target 'BoardGamesHelper' do
   pod 'ReactiveCocoa'
   pod 'FastSocket'
+  pod 'Tweaks'
 end
 
 target 'BoardGamesHelperTests' do

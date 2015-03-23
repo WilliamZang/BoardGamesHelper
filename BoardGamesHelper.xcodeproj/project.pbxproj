@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23C72B0AAFE69B5B27E28F56 /* libPods-BoardGamesHelperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E0E7DB773607982416A73D /* libPods-BoardGamesHelperTests.a */; };
+		B947917C1ABFEBA800BC272A /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = B947917B1ABFE83200BC272A /* Server.m */; };
 		B9DAE3C41ABDD36F00ECC6E5 /* BoardGamesHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3C31ABDD36F00ECC6E5 /* BoardGamesHelperTests.m */; };
 		B9DAE3D51ABDD5F800ECC6E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DAE3D41ABDD5F800ECC6E5 /* Images.xcassets */; };
 		B9DAE3DC1ABDD6E200ECC6E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3DA1ABDD6E200ECC6E5 /* AppDelegate.m */; };
@@ -39,6 +40,9 @@
 		803086FA5BA092064B15683E /* Pods-BoardGamesHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardGamesHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoardGamesHelper/Pods-BoardGamesHelper.release.xcconfig"; sourceTree = "<group>"; };
 		81626E1341A31AEEA9F7F569 /* libPods-BoardGamesHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoardGamesHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E0E7DB773607982416A73D /* libPods-BoardGamesHelperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoardGamesHelperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B947917A1ABFE83200BC272A /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		B947917B1ABFE83200BC272A /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		B9B2FC111ABFEE6A0016DA5F /* GlobalConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConfiguration.h; sourceTree = "<group>"; };
 		B9DAE3A41ABDD36F00ECC6E5 /* BoardGamesHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardGamesHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DAE3BD1ABDD36F00ECC6E5 /* BoardGamesHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGamesHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DAE3C21ABDD36F00ECC6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +107,15 @@
 				B3E0E7DB773607982416A73D /* libPods-BoardGamesHelperTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B94791791ABFE7BD00BC272A /* LocalNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B947917A1ABFE83200BC272A /* Server.h */,
+				B947917B1ABFE83200BC272A /* Server.m */,
+			);
+			path = LocalNetwork;
 			sourceTree = "<group>";
 		};
 		B9DAE39B1ABDD36F00ECC6E5 = {
@@ -174,6 +187,7 @@
 		B9DAE3CF1ABDD5B000ECC6E5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B94791791ABFE7BD00BC272A /* LocalNetwork */,
 				B9DAE3ED1ABDDA8B00ECC6E5 /* The Resistanc */,
 				B9DAE3E71ABDD8B800ECC6E5 /* User.h */,
 				B9DAE3E81ABDD8B800ECC6E5 /* User.m */,
@@ -208,6 +222,7 @@
 			children = (
 				B9DAE3D61ABDD69700ECC6E5 /* Initialize */,
 				B9DAE3D71ABDD69700ECC6E5 /* SupportingFiles */,
+				B9B2FC111ABFEE6A0016DA5F /* GlobalConfiguration.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -438,6 +453,7 @@
 				B9DAE3DC1ABDD6E200ECC6E5 /* AppDelegate.m in Sources */,
 				B9DAE3DD1ABDD6E200ECC6E5 /* main.m in Sources */,
 				B9DAE3E61ABDD74900ECC6E5 /* ViewController.m in Sources */,
+				B947917C1ABFEBA800BC272A /* Server.m in Sources */,
 				B9DAE3F31ABDDC4F00ECC6E5 /* SceneController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
