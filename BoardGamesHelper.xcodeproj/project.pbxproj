@@ -15,6 +15,11 @@
 		B9DAE3E41ABDD74900ECC6E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DAE3DF1ABDD74900ECC6E5 /* LaunchScreen.xib */; };
 		B9DAE3E51ABDD74900ECC6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DAE3E01ABDD74900ECC6E5 /* Main.storyboard */; };
 		B9DAE3E61ABDD74900ECC6E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3E31ABDD74900ECC6E5 /* ViewController.m */; };
+		B9DAE3E91ABDD8B800ECC6E5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3E81ABDD8B800ECC6E5 /* User.m */; };
+		B9DAE3EC1ABDD8F500ECC6E5 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3EB1ABDD8F500ECC6E5 /* Game.m */; };
+		B9DAE3F01ABDDA9F00ECC6E5 /* TheResistancGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3EF1ABDDA9F00ECC6E5 /* TheResistancGame.m */; };
+		B9DAE3F31ABDDC4F00ECC6E5 /* SceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3F21ABDDC4F00ECC6E5 /* SceneController.m */; };
+		B9DAE3F61ABDDC6100ECC6E5 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAE3F51ABDDC6100ECC6E5 /* Scene.m */; };
 		C2D2CDB2311F1C3E9EE80429 /* libPods-BoardGamesHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81626E1341A31AEEA9F7F569 /* libPods-BoardGamesHelper.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +52,16 @@
 		B9DAE3E01ABDD74900ECC6E5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B9DAE3E21ABDD74900ECC6E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B9DAE3E31ABDD74900ECC6E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9DAE3E71ABDD8B800ECC6E5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B9DAE3E81ABDD8B800ECC6E5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B9DAE3EA1ABDD8F500ECC6E5 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		B9DAE3EB1ABDD8F500ECC6E5 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		B9DAE3EE1ABDDA9F00ECC6E5 /* TheResistancGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheResistancGame.h; sourceTree = "<group>"; };
+		B9DAE3EF1ABDDA9F00ECC6E5 /* TheResistancGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheResistancGame.m; sourceTree = "<group>"; };
+		B9DAE3F11ABDDC4F00ECC6E5 /* SceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneController.h; sourceTree = "<group>"; };
+		B9DAE3F21ABDDC4F00ECC6E5 /* SceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneController.m; sourceTree = "<group>"; };
+		B9DAE3F41ABDDC6100ECC6E5 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		B9DAE3F51ABDDC6100ECC6E5 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		F3AA9452C8A8107050E86D9F /* Pods-BoardGamesHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardGamesHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardGamesHelperTests/Pods-BoardGamesHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +174,15 @@
 		B9DAE3CF1ABDD5B000ECC6E5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B9DAE3ED1ABDDA8B00ECC6E5 /* The Resistanc */,
+				B9DAE3E71ABDD8B800ECC6E5 /* User.h */,
+				B9DAE3E81ABDD8B800ECC6E5 /* User.m */,
+				B9DAE3EA1ABDD8F500ECC6E5 /* Game.h */,
+				B9DAE3EB1ABDD8F500ECC6E5 /* Game.m */,
+				B9DAE3F11ABDDC4F00ECC6E5 /* SceneController.h */,
+				B9DAE3F21ABDDC4F00ECC6E5 /* SceneController.m */,
+				B9DAE3F41ABDDC6100ECC6E5 /* Scene.h */,
+				B9DAE3F51ABDDC6100ECC6E5 /* Scene.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -229,6 +253,15 @@
 				B9DAE3E31ABDD74900ECC6E5 /* ViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B9DAE3ED1ABDDA8B00ECC6E5 /* The Resistanc */ = {
+			isa = PBXGroup;
+			children = (
+				B9DAE3EE1ABDDA9F00ECC6E5 /* TheResistancGame.h */,
+				B9DAE3EF1ABDDA9F00ECC6E5 /* TheResistancGame.m */,
+			);
+			path = "The Resistanc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,9 +431,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DAE3F61ABDDC6100ECC6E5 /* Scene.m in Sources */,
+				B9DAE3EC1ABDD8F500ECC6E5 /* Game.m in Sources */,
+				B9DAE3E91ABDD8B800ECC6E5 /* User.m in Sources */,
+				B9DAE3F01ABDDA9F00ECC6E5 /* TheResistancGame.m in Sources */,
 				B9DAE3DC1ABDD6E200ECC6E5 /* AppDelegate.m in Sources */,
 				B9DAE3DD1ABDD6E200ECC6E5 /* main.m in Sources */,
 				B9DAE3E61ABDD74900ECC6E5 /* ViewController.m in Sources */,
+				B9DAE3F31ABDDC4F00ECC6E5 /* SceneController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
